@@ -1,0 +1,80 @@
+.title{
+    font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vw;
+    /* line-height: 110%; */
+    
+    text-transform: uppercase;
+    animation: title_animate 3s ease-in-out infinite;
+    text-align: center;
+    /* padding-top: 8.4vw; */
+}
+
+@keyframes title_animate {
+    0%{
+        background: linear-gradient(90deg, #FF75C3 5%, #FFA647 15%, #FFE83F 1%, #9FFF5B 0%, #70E2FF 80%, #CD93FF 20%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    25%{
+        background: linear-gradient(90deg, #FF75C3 5%, #FFA647 60%, #FFE83F 1%, #9FFF5B 0%, #70E2FF 20%, #CD93FF 0%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    50%{
+        background: linear-gradient(90deg, #FF75C3 5%, #FFA647 30%, #FFE83F 20%, #9FFF5B 0%, #70E2FF 40%, #CD93FF 0%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    100%{
+        background: linear-gradient(90deg, #FF75C3 20%, #FFA647 15%, #FFE83F 40%, #9FFF5B 40%, #70E2FF 40%, #CD93FF 20%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+
+.footer_title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.8rem;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.link_dark{
+    color: #fbff00;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition-delay: 50ms;
+    transition-duration: 1s;
+}
+.link_dark:hover{
+    color: #f0f0f0;
+}
+
+.footer_img{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+i{
+    font-size: 0.8em;
+}
+
+footer{
+    margin-top: 5vw;
+}
+
+@media screen and (max-width: 786px) {
+    .footer_title{
+        font-size: 1.2rem;
+    }
+}
